@@ -5,7 +5,7 @@ jobs:
             - image: circleci/node:carbon
         steps:
             - checkout
-            - run: tsc
+            - run: npm i
     run:
         docker:
             - image: circleci/node:carbon
